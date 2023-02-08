@@ -55,14 +55,25 @@
         grid-template-rows: 1fr auto;
         padding: 10px;
     }
-    #navBar ul {
+    nav ul {
         grid-row: 2/3;
         grid-column: 2/3;
-        text-align: right;
+        align-items: flex-end;
         flex-direction: column;
         display: none;
+        height: fit-content;
+        
     }
-    #navBar ul.active {
+    nav ul li {
+        width: 100%;
+    }
+    nav ul li a {
+        justify-content: end;
+        height: 40px;
+        width: 100%;
+        padding-right: 20px;
+    }
+    nav ul.active {
         display: flex;
     }
     .hamburger {

@@ -13,7 +13,7 @@ document.querySelector(".lastUpdated").textContent = "Last updated: " + document
 
 
 function toggleMenu() {
-    document.querySelector('#navBar ul').classList.toggle('active');
+    document.querySelector('nav ul').classList.toggle('active');
     document.querySelector('.fa-bars').classList.toggle('active');
     document.querySelector('.fa-xmark').classList.toggle('active');
 }
