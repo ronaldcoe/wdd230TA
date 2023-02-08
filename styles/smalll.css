@@ -78,12 +78,16 @@
     }
     .fa-bars {
         display: none;
+        width: 24px;
+        filter: invert(23%) sepia(35%) saturate(4798%) hue-rotate(201deg) brightness(91%) contrast(83%);
     }
     .fa-bars.active {
         display: block;
     }
     .fa-xmark {
         display: none;
+        width: 24px;
+        filter: invert(23%) sepia(35%) saturate(4798%) hue-rotate(201deg) brightness(91%) contrast(83%);
     }
     .fa-xmark.active {
         display: block;

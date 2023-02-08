@@ -1,9 +1,9 @@
 let date = new Date;
 
 
-if(date.getDay() == 4) {
+if(date.getDay() == 2 || date.getDay() == 4) {
     document.querySelector('#notification').style.padding = "10px";
-    document.querySelector("#notification").innerHTML = '<a href="/">Join the Guayaquil Chamber today!</a>';
+    document.querySelector("#notification").innerHTML = '<i class="fa-solid fa-handshake" style="color:white">  </i> <a href="/">Join the Guayaquil Chamber today!</a>';
 }
 
 
