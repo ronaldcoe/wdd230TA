@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body {
 font-family: 'Poppins', sans-serif;}
 #wrapper {
@@ -24,9 +22,25 @@ header {
 }
 main ul li {
     padding: 10px;
+    list-style: none;
+}
+main ul {
+    padding-left: 0;
+}
+
+main ul li:nth-child(odd){
+    background-color: #1E293B;
+}
+main ul li a:hover {
+    text-decoration: underline;
+}
+main ul li:nth-child(odd) a{
+    color: white;
 }
 header h1 {
     font-size: 40px;
+    text-align: center;
+    width: 100%;
 }
 header img {
     height: 200px;
@@ -37,9 +51,9 @@ header img {
 }
 
 main {
-    
-    color: #1E293B;
     padding: 20px;
+    color: #1E293B;
+
 }
 main h2 {
     text-align: center;
